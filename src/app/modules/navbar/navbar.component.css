@@ -1,0 +1,61 @@
+/* MODIFICACION DEL NAVBAR */
+nav {
+    background-color: #0b1e2e; /* Ajusta este valor para que coincida con la imagen */
+    padding: 10px 20px;
+    border-radius: 0 0 50px 50px;
+}
+
+.navbar-css {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* INICIO DE MODIFICACION DE LA ETIQUETA a */
+a {
+    color: #ffffff; /* Cambiar el color del texto a blanco para mejor contraste */
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a.nav-link {
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #90a33f; /* Ajustar el color de hover si es necesario */
+}
+
+/* FIN DE MODIFICACION DE LA ETIQUETA a */
+
+/* INICIO DE LA MODIFICACION DEL BTN DEL SIGN-UP */
+.sign-up-btn {
+    background-color: transparent;
+    border: 1px solid #eef1d6;
+    color: #eef1d6;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign-up-btn:hover {
+    background-color: #eef1d6;
+    color: #0b1e2e;
+}
+/* FIN DE LA MODIFICACION DEL BTN DEL SIGN-UP */
+
+/* INICIO MODIFICACION DE LA IMAGEN DEL NAVBAR */
+.img-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+/* FIN MODIFICACION DE LA IMAGEN DEL NAVBAR */

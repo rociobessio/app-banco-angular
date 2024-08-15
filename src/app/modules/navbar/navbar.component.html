@@ -1,0 +1,33 @@
+<header class="pb-3 mb-4">
+    <div class="">
+        <nav class="navbar navbar-expand-lg" *ngIf="rol != ''">
+            <div class="navbar-css container-fluid">
+                <!-- INICIO DEL LOGO DEL NAVBAR -->
+                <div class="align-items-center">
+                    <img class="img-logo" src="/assets/logo-bank-app.png" alt="">
+                    <a class="navbar-brand" href="#">Web Banking</a>
+                </div>
+                <!-- FIN DEL LOGO DEL NAVBAR -->
+
+                <!-- INICIO PARA EL BOTON DE COLAPSAR EL MENU -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon btn-outline-light pt-1">◉</span>
+                </button>
+                <!-- FIN PARA EL BOTON DE COLAPSAR EL MENU -->
+
+                <!-- INICIO DE LAS OPCIONES DEL NAVBAR -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto"> <!-- Agregado ms-auto para que los elementos vayan a la derecha -->
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="sign-up-btn nav-link" href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <!-- FIN DE LAS OPCIONES DEL NAVBAR -->
+
+            </div>
+        </nav>
+    </div>
+</header>
