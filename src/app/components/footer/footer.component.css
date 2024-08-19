@@ -1,0 +1,171 @@
+footer {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, #dee4b2, #0b1e2e);
+    color: #fff;
+    padding: 50px 20px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+.row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+/* INICIO DE MODIFICACION DE LAS COLUMNAS */
+.col {
+    flex-basis: 22%;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.col h3{
+    text-align: left; /* Alinea los títulos a la izquierda */
+    margin-bottom: 20px; /* Ajusta el margen inferior */
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+/* FIN DE MODIFICACION DE LAS COLUMNAS */
+
+/* INICIO DE LA MODIFICACION DEL LOGO */
+.logo-banco{
+    width: 80px;
+    height: 80px;
+}
+/* FIN DE LA MODIFICACION DEL LOGO */
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* INICIO DE MODIFICACION DEL NEWSLETTER */
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin: 50px;
+}
+
+form .far{
+    font-size: 18px ;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+/* FIN DE MODIFICACION DEL NEWSLETTER */
+
+/* INICIO DE MODIFICACION DE LOS UL/LI */
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    /* right: -40%; */
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+}
+/* FIN DE MODIFICACION DE LOS UL/LI */
+
+/* INICIO DE MODIFICACION DE LOS SOCIAL ICONS */
+.social-icons .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* FIN DE MODIFICACION DE LOS SOCIAL ICONS */
+
+/* INICIO DE LA MODIFICACION DE LA DIVISION DEL FOOTER */
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copy-right{
+    text-align: center;
+}
+/* FIN DE LA MODIFICACION DE LA DIVISION DEL FOOTER */
+
+/* INICIO DE LA ANIMACION DE LAS ETIQUETAS H3/H4 */
+.underline{
+    width: 100%;
+    height: 5px;
+    background-color: #dee4b2;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+/* FIN DE LA ANIMACION DE LAS ETIQUETAS H3/H4 */
